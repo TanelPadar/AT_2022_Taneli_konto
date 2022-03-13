@@ -7,7 +7,7 @@
 			<h4>Login</h4>
 		<form action="login.php" method="POST">
 			<div class="form-group">
-				<label>Username:</label>
+				<label>Username</label>
 				<input type="email" name="user_email" class="form-control"  value="<?php if(isset($_COOKIE["user_email"])) { echo $_COOKIE["user_email"]; } ?>" required>
 			</div>
 			<div class="form-group">

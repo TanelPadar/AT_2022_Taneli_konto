@@ -1,7 +1,7 @@
 <?php 
 $host = "localhost";
 $user = "padartaneliktkhk";
-$db_password = "";
+$db_password = "sda";
 $db_name = "padartaneliktkhk_voistlus";
 
 $conn= mysqli_connect($host,$user,$db_password,$db_name);
